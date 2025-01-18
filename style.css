@@ -1,0 +1,44 @@
+.Image1 {
+    width: 750px;
+}
+
+.Image2{
+    width: 250px;
+
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: 872341 ;
+    color: E17564 ;
+}
+
+.button {
+    background-color: 09122C;
+    border: none;
+    color:E17564 ;
+    padding: 2px;
+    text-align: center;
+    border-radius: 8px;
+    display: -moz-box;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .button:active {
+    box-shadow: 0 5px #808080;
+    transform: translateY(4px);
+  }
+
+  .footer{
+    width: 100%;
+    background-color: BE3144;
+  }
+  body {
+    display: flex;
+    flex-direction:row;
+  }
+  
+  main {
+    flex: 3;
+  }
